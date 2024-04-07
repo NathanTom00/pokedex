@@ -80,7 +80,7 @@ function creaCard(pokemon){
 
     let imgPokemon = document.createElement('img')
     imgPokemon.classList.add('img-pokemon')
-    imgPokemon.src = '../images/' + idToString(pokemon.id) + '.png' //l'id è un numero che convertito in stringa mostra il numero NON in formato ###, per questo usiamo idToString
+    imgPokemon.src = 'images/' + idToString(pokemon.id) + '.png' //l'id è un numero che convertito in stringa mostra il numero NON in formato ###, per questo usiamo idToString
 
     //creo il div per i tipi
     let divTypes = document.createElement('div')
