@@ -1,7 +1,7 @@
 
 const cardPokemonContainer = document.querySelector('.card-pokemon-container');
 const search = document.querySelector('#search-pokemon');
-fetch("../pokedex.json")
+fetch("https://raw.githubusercontent.com/NathanTom00/pokedex/main/pokedex.json")
  .then(
     response => response.json()) //dopo il fetch converto da json a oggetto js
  .then(
